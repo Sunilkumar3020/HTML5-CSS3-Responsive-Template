@@ -1,0 +1,22 @@
+{
+  "name": "html-responsive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunilkumar3020/HTML5-CSS3-Responsive-Template.git"
+  },
+  "author": "Sunil kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sunilkumar3020/HTML5-CSS3-Responsive-Template/issues"
+  },
+  "homepage": "https://github.com/Sunilkumar3020/HTML5-CSS3-Responsive-Template#readme",
+  "devDependencies": {
+    "sass": "^1.22.9"
+  }
+}
