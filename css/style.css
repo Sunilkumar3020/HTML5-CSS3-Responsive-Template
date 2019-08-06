@@ -12,7 +12,6 @@ body {
   font-family: "lato", sans-serif;
   /* font-size: 16px; */
   line-height: 1.7;
-  color: green;
 }
 
 .header {
@@ -23,17 +22,14 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative;
 }
-
 .header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
 }
-
 .header__logo {
   height: 3.5rem;
 }
-
 .header__text-box {
   position: absolute;
   top: 40%;
@@ -47,7 +43,6 @@ body {
   text-transform: uppercase;
   margin-bottom: 6rem;
 }
-
 .heading-primary--main {
   display: block;
   font-size: 5rem;
@@ -55,7 +50,6 @@ body {
   font-weight: 400;
   animation: moveInLeft 2s;
 }
-
 .heading-primary--sub {
   display: block;
   font-size: 1.9rem;
@@ -114,12 +108,12 @@ body {
 
 .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .btn:active {
   transform: translateY(-1px);
-  box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .btn--white {
