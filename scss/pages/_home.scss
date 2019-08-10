@@ -3,3 +3,19 @@
     padding: 25rem 0;
     margin-top: -20vh;
 }
+
+.section-features{
+    margin-top: -8rem;
+    padding: 20rem;
+    background-image: linear-gradient(to right bottom,
+            rgba($color-primary, 0.8),
+            rgba($color-secondary, 0.8)),
+        url(../img/header-img.jpg);
+    background-size: cover;
+
+    transform: skewY(-7deg);
+
+    & > *{
+        transform: skewY(7deg);
+    }
+}
